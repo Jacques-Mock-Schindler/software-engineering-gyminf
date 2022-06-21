@@ -1,3 +1,8 @@
+---
+layout: default
+title : Softwaretechnik
+---
+
 # Softwaretechnik
 
 Departement Mathematik und [Informatik](http://informatik.unibas.ch/), Universität Basel
@@ -25,7 +30,7 @@ Einen Überblick über die einzelnen Projektschritte finden Sie auf der [Projekt
 
 |  | Themen | Bemerkungen |
 |------| ----- | --------- |
-|[Halbtag 1](day1/index) | Einführung / Administratives  | |
+|[Halbtag 1](/day1) | Einführung / Administratives  | |
 |    | Was ist Software engineering  | |
 |[Halbtag 2](day2/index) |  | |
 |    | Eigenschaften von Software ||
