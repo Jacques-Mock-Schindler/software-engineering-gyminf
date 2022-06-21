@@ -54,7 +54,7 @@ Als Ergänzung empfehlen wir folgende Lehrbücher.
 
 * [S. L. Pfleeger, und J. M. Atlee. Software engineering: theory and practice](https://www.pearson.com/us/higher-education/program/Pfleeger-Pfleeger-Software-Engineering-4-4th-Edition/PGM58925.html)
     * Englischsprachiges Standardwerk des Software Engineerings
-* [H. Lichter, und j. Ludewig, Software Engineering](https://www.swc.rwth-aachen.de/se_buch/zweiteAuflage/)
+* [H. Lichter, und j. Ludewig, Software Engineering](https://www.orellfuessli.ch/shop/home/artikeldetails/A1030132020)
     * Deutschsprachiges Lehrbuch
 * [C. Ghezzi, M. Jazayeri und D. Mandrioli, Fundamentals of Software Engineering](https://www.pearson.com/us/higher-education/program/Ghezzi-Fundamentals-of-Software-Engineering-2nd-Edition/PGM13112.html)
     * Sehr empfehlenswerter Klassiker, welcher die Grundlage dieser Vorlesung bildet. Kann wegen dem horrenden Preis jedoch nicht zum Kauf empfohlen werden.
