@@ -1,37 +1,57 @@
-## Welcome to GitHub Pages
+# Softwaretechnik
 
-You can use the [editor on GitHub](https://github.com/unibas-marcelluethi/software-engineering-gyminf/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+Departement Mathematik und [Informatik](http://informatik.unibas.ch/), Universität Basel
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Dozent: Marcel Lüthi (<marcel.luethi@unibas.ch>)
 
-### Markdown
+[Diese Vorlesungsseite auf Github](https://github.com/unibas-marcelluethi/software-engineering-gyminf)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[Diskussionsforum](https://github.com/unibas-marcelluethi/software-engineering-gyminf/discussions)
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## Kurzbeschreibung
 
-- Bulleted
-- List
+Die Vorlesung gibt eine erste Einführung in das Software Engineering.
+Das Hauptziel der Vorlesung ist die Studierenden mit den Grundprinzipien der Softwaretechnik, sowie, zu einem gewissen Grad, auch mit der Geschichte des Gebiets vertraut zu machen. Aktuelle Methoden und Tools werden im Rahmen eines vorlesungsbegleitenden Projekts eingeführt.
 
-1. Numbered
-2. List
+### Projekt
 
-**Bold** and _Italic_ and `Code` text
+Das Open Source Projekt Jabref [(Offizielles Github Repositories)](https://github.com/jabref/jabref) dient als Grundlage für die praktischen
+übungen. Die Teilnehmenden bringen kleine Änderungen am Projekt an, studieren den Source Code und implementieren dann eigene Erweiterungen.
 
-[Link](url) and ![Image](src)
-```
+Einen Überblick über die einzelnen Projektschritte finden Sie auf der [Projektseite](project/project-summary.html).
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## Programm
 
-### Jekyll Themes
+|  | Themen | Bemerkungen |
+|------| ----- | --------- |
+|[Halbtag 1](day1/index) | Einführung / Administratives  | |
+|    | Was ist Software engineering  | |
+|[Halbtag 2](day2/index) |  | |
+|    | Eigenschaften von Software ||
+|[Halbtag 3](day3/index) | Prinzipien des Software engineerings   | |
+|    | Module |  |
+|[Halbtag 4](day4/index) | Software Design | |
+|[Halbtag 5](day5/index) | OO Design und UML| |
+|[Halbtag 6](day6/index)   | Anforderungsanalyse   | |
+|[Tag 7](day7/index) | Softwarespezifikation  |  |
+|[Tag 8](day8/index) | Softwareverifikation |  |
+|[Tag 9](day9/index) | Softwareprozesse  | |
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/unibas-marcelluethi/software-engineering-gyminf/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+## Literatur / Weiterführende Links
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Empfohlene Lehrbücher
+
+Der Vorlesungstoff kann gut mit dem zur Verfügung gestellten Material erarbeitet werden.
+Als Ergänzung empfehlen wir folgende Lehrbücher.
+
+
+* [S. L. Pfleeger, und J. M. Atlee. Software engineering: theory and practice](https://www.pearson.com/us/higher-education/program/Pfleeger-Pfleeger-Software-Engineering-4-4th-Edition/PGM58925.html)
+    * Englischsprachiges Standardwerk des Software Engineerings
+* [H. Lichter, und j. Ludewig, Software Engineering](https://www.swc.rwth-aachen.de/se_buch/zweiteAuflage/)
+    * Deutschsprachiges Lehrbuch
+* [C. Ghezzi, M. Jazayeri und D. Mandrioli, Fundamentals of Software Engineering](https://www.pearson.com/us/higher-education/program/Ghezzi-Fundamentals-of-Software-Engineering-2nd-Edition/PGM13112.html)
+    * Sehr empfehlenswerter Klassiker, welcher die Grundlage dieser Vorlesung bildet. Kann wegen dem horrenden Preis jedoch nicht zum Kauf empfohlen werden.
+
+
