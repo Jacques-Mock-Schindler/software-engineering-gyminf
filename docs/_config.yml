@@ -1,1 +1,6 @@
 theme: jekyll-theme-slate
+
+title: Software Engineering - GymInf 22
+
+includes_dir     : ./_includes
+layouts_dir:  ./_layouts
