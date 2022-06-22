@@ -3,7 +3,7 @@ layout: default
 title : Eigenschaften von Software
 ---
 
-# Halbtag 1: Einführung in Softwaretechnik
+# Halbtag 2: Eigenschaften von Software
 
 
 ## Slides 

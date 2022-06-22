@@ -32,12 +32,12 @@ Einen Überblick über die einzelnen Projektschritte finden Sie auf der [Projekt
 |------| ----- | --------- |
 |[Halbtag 1](./day1) | Einführung / Administratives  | |
 |    | Was ist Software engineering  | |
-|[Halbtag 2](./comingsoon) |  | |
+|[Halbtag 2](./day2) |  | |
 |    | Eigenschaften von Software ||
-|[Halbtag 3](./comingsoon) | Prinzipien des Software engineerings   | |
+|[Halbtag 3](./day3) | Prinzipien des Software-Engineerings   | |
 |    | Module |  |
-|[Halbtag 4](./comingsoon) | Software Design | |
-|[Halbtag 5](./comingsoon) | OO Design und UML| |
+|[Halbtag 4](./comingsoon) | Softwaredesign | |
+|[Halbtag 5](./comingsoon) | OO-Design und UML| |
 |[Halbtag 6](./comingsoon)   | Anforderungsanalyse   | |
 |[Tag 7](./comingsoon) | Softwarespezifikation  |  |
 |[Tag 8](./comingsoon) | Softwareverifikation |  |
