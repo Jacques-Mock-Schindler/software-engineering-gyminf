@@ -7,20 +7,28 @@ title : Erste Codeänderungen
 
 ## Einführung
 
-In dieser Übung werden Sie einen typischen Arbeitsablauf mit Git durchspielen. Dieser Ablauf wird in ähnlicher Form immer dann vorkommen, wenn Sie ein neues Feature
-für eine auf Github gehostete Software entwickeln wollen. Das Ziel dieser Übung ist, dass Sie sich mit den wichtigsten Befehlen und Abläufen in Git vertraut machen und auch das Zusammenspiel verschiedener lokaler und verteilter Repositories besser verstehen.
+In dieser Übung werden Sie einen typischen Arbeitsablauf mit Git durchspielen. 
+Dieser Ablauf wird in ähnlicher Form immer dann vorkommen, wenn Sie ein neues Feature für eine auf Github gehostete Software entwickeln wollen. 
+Das Ziel dieser Übung ist, dass Sie sich mit den wichtigsten Befehlen und Abläufen in Git vertraut machen und auch das Zusammenspiel verschiedener lokaler und verteilter Repositories besser verstehen.
 
-Sie werden zudem auch ihre ersten kleinen Änderungen in JabRef vornehmen. Dabei werden Sie lernen, relevante Konzepte im Code zu lokalisieren und bestehenden Code zu imitieren.
+Sie werden zudem auch ihre ersten kleinen Änderungen in JabRef vornehmen. 
+Dabei werden Sie lernen, relevante Konzepte im Code zu lokalisieren und bestehenden Code zu imitieren.
 
 
-*Bemerkung:* Obwohl es viele grafische Tools gibt die das Arbeiten mit *Git* unterstützen, nutzen wir in unseren Übungen die Kommandozeile. Wir empfehlen auch Ihnen am Anfang nur mit der Kommandozeile zu arbeiten. Sie sehen besser was passiert und es ist einfacher bei Problemen eine Antwort im Internet zu finden.
+*Bemerkung:* Obwohl es viele grafische Tools gibt die das Arbeiten mit *Git* unterstützen, nutzen wir in unseren Übungen die Kommandozeile. 
+Wir empfehlen auch Ihnen am Anfang nur mit der Kommandozeile zu arbeiten. Sie sehen besser was passiert und es ist einfacher bei Problemen eine Antwort im Internet zu finden.
 
 
 
 ## Upstream Repository hinzufügen
 
-In der ersten Übung haben Sie JabRef Repository (genauer, unseren privaten Fork des JabRef Repository) via Github "geforked". Dadurch wurde das Repository dupliziert und unter Ihrem Benutzer hinzugefügt. Die beiden Repositories sind komplett unabhängig. Wenn Sie eine Änderung an ihrem JabRef Repository vornehmen, hat dies keine Auswirkung auf das original JabRef Repository. Umgekehrt gilt aber auch, dass alle Änderungen (Bugfixes, Erweiterungen, neue Entwicklungen) am original Repository bei Ihnen nicht sichtbar sind.
-Sie müssen diese Änderungen explizit abholen und bei Ihnen hinzufügen. Dazu erlaubt Ihnen *Git* mehrere Repositories zu verwalten.
+In der ersten Übung haben Sie JabRef Repository (genauer, unseren privaten Fork des JabRef Repository) via Github "geforked". 
+Dadurch wurde das Repository dupliziert und unter Ihrem Benutzer hinzugefügt. 
+Die beiden Repositories sind komplett unabhängig. 
+Wenn Sie eine Änderung an ihrem JabRef Repository vornehmen, hat dies keine Auswirkung auf das original JabRef Repository. 
+Umgekehrt gilt aber auch, dass alle Änderungen (Bugfixes, Erweiterungen, neue Entwicklungen) am original Repository bei Ihnen nicht sichtbar sind.
+Sie müssen diese Änderungen explizit abholen und bei Ihnen hinzufügen. 
+Dazu erlaubt Ihnen *Git* mehrere Repositories zu verwalten.
 
 Im folgenden nennen wir das von Ihnen geforkte Repository *origin* und das original Repository *upstream*.
 Durch das Klonen von ihrem *origin* Repository mittels ```git clone```, haben Sie git bereits mitgeteilt, wo ihr *origin* Repository liegt.
@@ -30,7 +38,8 @@ git remote -v
 ```
 können Sie sich die URL davon anzeigen lassen.
 
-Damit Sie auf die Änderungen vom *upstream* Repository zugreifen können, müssen Sie dies als weiteres remote Repository hinzufügen. Das machen Sie via:
+Damit Sie auf die Änderungen vom *upstream* Repository zugreifen können, müssen Sie dies als weiteres remote Repository hinzufügen. 
+Das machen Sie via:
 ```
 git remote add upstream git@github.com:unibas-marcelluethi/jabref.git
 ```
@@ -43,8 +52,8 @@ Sie sollten nun nicht nur das *origin* sondern auch das *upstream* Repository se
 
 
 * *Bemerkung 1:*  Upstream ist hier nur ein Alias für die URL. Sie könnten auch direkt mit der URL arbeiten.
-* *Bemerkung 2:*  Der Name vom Alias ist beliebig. Git nennt das Repository, von welchem man klont automatisch *origin*, es wäre aber möglich dies umzubenennen. Das
-Ursprungsrepository wird typischerweise *upstream* genannt.
+* *Bemerkung 2:*  Der Name vom Alias ist beliebig. Git nennt das Repository, von welchem man klont automatisch *origin*, es wäre aber möglich dies umzubenennen. 
+Das Ursprungsrepository wird typischerweise *upstream* genannt.
 
 
 ## Synchronisieren ihres Repositories mit dem Upstream
@@ -94,7 +103,8 @@ oder
 ```
 git diff  5c9edc9..fedf4c5
 ```
-Das Erste gibt Ihnen alle Commit Messages der neuen Änderungen aus. Das letzere zeigt die "Diffs" der Dateien an.
+Das Erste gibt Ihnen alle Commit Messages der neuen Änderungen aus. 
+Das Letztere zeigt die "Diffs" der Dateien an.
 
 In jedem Fall ist Ihr (lokaler) *main* Branch nun wieder auf dem aktuellen Stand und Sie können damit beginnen Ihre erste Änderung zu implementieren.
 Damit Sie diese Änderung nicht nur auf Ihrem Computer, sondern auch im *main* Branch des *origin* Repositories auf Github haben, müssen Sie diese durch
@@ -105,9 +115,11 @@ synchronisieren.
 
 ## Einen Featurebranch erstellen
 
-Bevor Sie irgendeine Änderung am Projekt vornehmen, sollten Sie immer mit git einen neuen Featurebranch erstellen. Damit sind immer alle
-Änderungen, die zu einem Feature gehören, klar getrennt. Das gibt Ihnen die Möglichkeit an mehreren unterschiedlichen Aspekten des Projekts parallel zu arbeiten,
-ohne dass sich die jeweiligen Änderungen beeinflussen. Ausserdem werden so Ihre Änderungen auch logisch strukturiert, was es später einfacher macht die *Git History*, also den Verlauf der Änderungen, zu verstehen.
+Bevor Sie irgendeine Änderung am Projekt vornehmen, sollten Sie immer mit git einen neuen Featurebranch erstellen. 
+Damit sind immer alle Änderungen, die zu einem Feature gehören, klar getrennt. 
+Das gibt Ihnen die Möglichkeit an mehreren unterschiedlichen Aspekten des Projekts parallel zu arbeiten,
+ohne dass sich die jeweiligen Änderungen beeinflussen. 
+Ausserdem werden so Ihre Änderungen auch logisch strukturiert, was es später einfacher macht die *Git History*, also den Verlauf der Änderungen, zu verstehen.
 
 Um einen Branch zu erstellen wechseln Sie in Ihr Projektverzeichnis und geben folgende Kommandos ein:
 ```
@@ -138,9 +150,8 @@ Ihre Aufgabe ist es nun, erste Änderungen an Jabref vorzunehmen.
 #### Änderung 1:
 
 
-* In der About box ("Menu: Help -> About JabRef") gibt es einen Link mit dem Namen "Engagieren Sie sich" oder "Get Involved", je nachdem ob bei Ihnen JabRef auf Deutsch oder English läuft. Ändern Sie den Link so,
-dass dieser neu nicht auf die JabRef Github Seite, sondern auf ihr privates
-JabRef Repository zeigt (https://github.com/GITHUB_USERNAME/jabref) zeigt.
+* In der About box ("Menu: Help -> About JabRef") gibt es einen Link mit dem Namen "Engagieren Sie sich" oder "Get Involved", je nachdem ob bei Ihnen JabRef auf Deutsch oder English läuft. 
+Ändern Sie den Link so, dass dieser neu nicht auf die JabRef Github Seite, sondern auf ihr privates JabRef Repository zeigt (https://github.com/GITHUB_USERNAME/jabref) zeigt.
 
 *Tipp 1:* Verwenden Sie die Suchfunktionen *Search Everywhere* (```Shift Shift```) oder *Find in Path* (```Ctrl-Shift-F```) um die entsprechenden Stellen im Code zu finden.
 *Tipp 2:* Neben den java Dateien, müssen Sie auch die Dateien mit der Endung *.fxml anschauen. Diese enthält das eigentliche Layout der Elemente in der Dialogbox.
@@ -149,13 +160,16 @@ Wenn Sie die Änderung erfolgreich implementiert und getestet haben, können Sie
 ```
 git commit -a -m "Ihre aussagekräftige Commit-Message"
 ```
-Bitte schreiben Sie eine sinnvolle Commit-Message. Einige Hinweise wie gute Commit Messages aussehen sollen finden sie in diesem [Artikel](https://chris.beams.io/posts/git-commit/). Schauen Sie sich auch den Stil der [Commit-Messages](https://github.com/JabRef/jabref/commits/main) bei JabRef an. Welche Zeitform wird verwendet?
+Bitte schreiben Sie eine sinnvolle Commit-Message. 
+Einige Hinweise wie gute Commit Messages aussehen sollen finden sie in diesem [Artikel](https://chris.beams.io/posts/git-commit/).
+Schauen Sie sich auch den Stil der [Commit-Messages](https://github.com/JabRef/jabref/commits/main) bei JabRef an. Welche Zeitform wird verwendet?
 
 
 #### Änderung 2
 * Fügen Sie in die Toolbar zusätzlich zum Twitter, Facebook und Github Icon auch ein Icon hinzu, welches beim drücken auf unseren Gitter Chat springt.
 
-Wenn Sie die Änderung erfolgreich implementiert und getestet haben, können Sie auch diese committen. Achten Sie auch hier auf eine sinnvolle Commit-Message.
+Wenn Sie die Änderung erfolgreich implementiert und getestet haben, können Sie auch diese committen. 
+Achten Sie auch hier auf eine sinnvolle Commit-Message.
 
 
 ## Abgabe Ihrer Änderung
@@ -164,11 +178,11 @@ Um ihre Änderung einzureichen, "pushen" Sie den aktuellen Branch mittels dem Ko
 ```
 git push origin uebung2
 ```
-zurück auf github. Wenn Sie jetzt auf ihre Github Projektseite gehen (also https://github.com/YOUR_USERNAME/jabref), sollte Ihnen Github anzeigen, dass Sie
-soeben den neuen Branch ```uebung_2``` auf Github gepushed haben.
+zurück auf github. 
+Wenn Sie jetzt auf ihre Github Projektseite gehen (also https://github.com/YOUR_USERNAME/jabref), sollte Ihnen Github anzeigen, dass Sie soeben den neuen Branch ```uebung_2``` auf Github gepushed haben.
 
-In einem realen Open Source Projekt möchten Sie jetzt Ihre Änderungen wieder in das *upstream* Repository einfliessen lassen. Dies macht man via einem *Pull Request*,
-welcher den Maintainer des *upstream* Repositories darüber informiert, dass man Änderungen vorgenommen hat, die man gerne zurückführen möchte.
+In einem realen Open Source Projekt möchten Sie jetzt Ihre Änderungen wieder in das *upstream* Repository einfliessen lassen. 
+Dies macht man via einem *Pull Request*, welcher den Maintainer des *upstream* Repositories darüber informiert, dass man Änderungen vorgenommen hat, die man gerne zurückführen möchte.
 
 Dazu zeigen Sie sich zuerst alle verfügbaren Branches an:
 
@@ -179,21 +193,23 @@ Wählen Sie beim Branch uebung_2 ```New pull request```.
 
 ![image](images/jabref-new-pr.png)
 
-Auf der folgenden Seite können sie das Zielrepository auswählen. Hier würden Sie normalerweise das Upstream repository wählen.
+Auf der folgenden Seite können sie das Zielrepository auswählen. 
+Hier würden Sie normalerweise das Upstream repository wählen.
 
 *WICHTIG! Da wir in diesem Projekt nicht alle Ihre Änderungen im upstream Repository wollen, wählen Sie hier stattdessen Ihr eigenes Repository (also ```YOUR_USERNAME/jabref```).*
 
 ![image](images/jabref-target-repo.png)
 
-Auf der folgenden Seite können Sie nun Ihre Änderung kurz beschreiben, sowie die Reviewers angeben. Als Reviewers geben Sie ```emugdan```, ```colinhex``` und ```guenesaydin``` an.
+Auf der folgenden Seite können Sie nun Ihre Änderung kurz beschreiben, sowie die Reviewers angeben. Als Reviewers geben Sie ```marcelluethi``` an.
 
 ![image](images/jabref-pr-reviewers.png)
 
 Danach schliessen Sie den Pull Request ab indem Sie ```Create Pull Request``` wählen.
 
-Damit werden die von Ihnen angegebenen Reviewers darüber informiert, dass Sie gerne Ihren Code in den ```main``` Branch mergen wollen, und dass zuvor eine Review durchgeführt werden soll. In einem richtigen Projekt hätten die Reviewer nun die Aufgabe, die Codequalität zu prüfen bevor der Code in den Zielbranch gemerged wird. Die Reviewer könnten gegebenenfalls auch Änderungen verlangen.
+Damit werden die von Ihnen angegebenen Reviewers darüber informiert, dass Sie gerne Ihren Code in den ```main``` Branch mergen wollen, und dass zuvor eine Review durchgeführt werden soll. 
+In einem richtigen Projekt hätten die Reviewer nun die Aufgabe, die Codequalität zu prüfen bevor der Code in den Zielbranch gemerged wird. Die Reviewer könnten gegebenenfalls auch Änderungen verlangen.
 
 In unserem Fall dient der Pull Request als Abgabe und erlaubt uns Ihre Änderungen komfortabel durchzuschauen. Sie erhalten das Feedback dann direkt via Github.
 
-*Beachten Sie: Es ist wichtig, dass Sie diese Pull Requests gewissenhaft machen und den richtigen Zielbranch angeben. Falls versehentlich ein solcher Pull Request vom Maintainer des Originalprojekts übernommen wird, kann dies zu erheblichem Chaos im Repository führen. Wir werden dies auch bei der Bewertung der Übung berücksichtigen.*
+*Beachten Sie: Es ist wichtig, dass Sie diese Pull Requests gewissenhaft machen und den richtigen Zielbranch angeben. Falls versehentlich ein solcher Pull Request vom Maintainer des Originalprojekts übernommen wird, kann dies sonst zu erheblichem Chaos im Repository führen.*
 
