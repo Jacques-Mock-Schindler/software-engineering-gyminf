@@ -36,8 +36,8 @@ Einen Überblick über die einzelnen Projektschritte finden Sie auf der [Projekt
 |    | Eigenschaften von Software ||
 |[Halbtag 3](./day3) | Prinzipien des Software-Engineerings   | |
 |    | Module |  |
-|[Halbtag 4](./comingsoon) | Softwaredesign | |
-|[Halbtag 5](./comingsoon) | OO-Design und UML| |
+|[Halbtag 4](./day4) | Softwaredesign | |
+|[Halbtag 5](./comingsoon) | SOLID-Prinzipien| |
 |[Halbtag 6](./comingsoon)   | Anforderungsanalyse   | |
 |[Tag 7](./comingsoon) | Softwarespezifikation  |  |
 |[Tag 8](./comingsoon) | Softwareverifikation |  |
