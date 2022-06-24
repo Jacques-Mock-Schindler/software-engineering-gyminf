@@ -30,12 +30,9 @@ Einen Überblick über die einzelnen Projektschritte finden Sie auf der [Projekt
 
 |  | Themen | Bemerkungen |
 |------| ----- | --------- |
-|[Halbtag 1](./day1) | Einführung / Administratives  | |
-|    | Was ist Software engineering  | |
-|[Halbtag 2](./day2) |  | |
-|    | Eigenschaften von Software ||
+|[Halbtag 1](./day1) | Was ist Software engineering  | |
+|[Halbtag 2](./day2) | Eigenschaften von Software | |
 |[Halbtag 3](./day3) | Prinzipien des Software-Engineerings   | |
-|    | Module |  |
 |[Halbtag 4](./day4) | Softwaredesign | |
 |[Halbtag 5](./day5) | SOLID-Prinzipien| |
 |[Halbtag 6](./comingsoon)   | Anforderungsanalyse   | |
