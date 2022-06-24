@@ -37,7 +37,7 @@ Einen Überblick über die einzelnen Projektschritte finden Sie auf der [Projekt
 |[Halbtag 3](./day3) | Prinzipien des Software-Engineerings   | |
 |    | Module |  |
 |[Halbtag 4](./day4) | Softwaredesign | |
-|[Halbtag 5](./comingsoon) | SOLID-Prinzipien| |
+|[Halbtag 5](./day5) | SOLID-Prinzipien| |
 |[Halbtag 6](./comingsoon)   | Anforderungsanalyse   | |
 |[Tag 7](./comingsoon) | Softwarespezifikation  |  |
 |[Tag 8](./comingsoon) | Softwareverifikation |  |
@@ -49,7 +49,7 @@ Einen Überblick über die einzelnen Projektschritte finden Sie auf der [Projekt
 ### Empfohlene Lehrbücher
 
 Der Vorlesungstoff kann gut mit dem zur Verfügung gestellten Material erarbeitet werden.
-Als Ergänzung empfehlen wir folgende Lehrbücher.
+Wer trotzdem ein Lehrbuch kaufen möchte, kann mit einem der folgenden keinen Fehler machen. 
 
 
 * [S. L. Pfleeger, und J. M. Atlee. Software engineering: theory and practice](https://www.pearson.com/us/higher-education/program/Pfleeger-Pfleeger-Software-Engineering-4-4th-Edition/PGM58925.html)
