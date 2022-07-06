@@ -20,7 +20,8 @@ Das Projekt selbst ist in mehrere Phasen aufgeteilt:
 | [Pflichtenheft/Projektplan erstellen](./step1/exercises) | 19. August | 2. September  |
 | [Design und Prototyp erstellen](./step2/exercises) | 2. September | 16. September |
 | [Testplan erstellen](./step3/exercises) | 16. September | 23. September |  
-| [Finale Abgabe des Projekts](./step4/exercises) | Nach Absprache | 
+| [Finale Abgabe des Projekts](./step4/exercises) | - | Nach Absprache | 
+
 Für detaillierte Instruktionen zu jedem Projektschritt folgen Sie den Links in obiger Tabelle.
 
 Die Abgaben werden in einem ersten Schritt als Entwurf abgegeben, und dann mit dem Dozenten besprochen. Danach können die Studierenden 
