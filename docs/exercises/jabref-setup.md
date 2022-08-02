@@ -57,7 +57,7 @@ https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-
 ), welche diesen Schritt für die drei wichtigen Betriebssysteme (Windows, Linux und MacOS) detailliert beschreibt.
 
 Falls Sie Probleme haben SSH einzurichten, können Sie alternativ auch ein Access Token erstellen und 
-mit diesem Arbeiten. Eine Anleitung dazu finden Sie[hier](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token). 
+mit diesem Arbeiten. Eine Anleitung dazu finden Sie [hier](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token). 
 
 ### Installieren von Java
 
@@ -69,7 +69,7 @@ können.
 Um zu überprüfen ob Java korrekt auf Ihrem System verfügbar ist, öffnen Sie ein Terminal, und setzen die
 Umgebungsvariable ```JAVA_HOME``` und ```PATH``` wie hier Beispielhaft für die Windows Powershell gezeigt:
 ```
-$env:JAVA_HOME="C:\Program Files\Eclipse Adoptium\jdk-18.0.1.10-hotspot
+$env:JAVA_HOME="C:\Program Files\Eclipse Adoptium\jdk-18.0.1.10-hotspot"
 $env:PATH="C:\Program Files\Eclipse Adoptium\jdk-18.0.1.10-hotspot\bin" 
 ```
 auf das neu installierte JDK. Dann geben Sie folgendes Kommando ein:
