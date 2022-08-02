@@ -16,9 +16,9 @@ In dieser ersten Übung werden Sie alle wichtigen Tools und die Entwicklungsumge
 
 
 ## Benutzeraccount auf Github
-Falls Sie noch keinen Benutzeraccount auf [Github](https://www.github.com) haben, erstellen Sie bitte einen. Teilen Sie uns Ihren Github Benutzernamen sowie Ihre Uni Basel E-Mail  Adresse via E-Mail an [marcel.luethi@unibas.ch](mailto:marcel.luethi@unibas.ch) mit, damit wir Ihnen Zugriff auf das Code-Repository geben können.
+Falls Sie noch keinen Benutzeraccount auf [Github](https://www.github.com) haben, erstellen Sie bitte einen. Teilen Sie uns Ihren Github Benutzernamen via E-Mail an [marcel.luethi@unibas.ch](mailto:marcel.luethi@unibas.ch) mit, damit wir Ihnen Zugriff auf das Code-Repository geben können.
 
-*Auf Github ist dieser Benutzername sehr prominent und wird auch in der Projektkommunikation verwendet. Achten Sie deshalb bitte darauf, dass Sie einen Benutzernamen wählen, der professionelles Arbeiten zulässt. Gute Beispiele sind: ```andreasmeier``` oder ```andreas``` oder ```ameier```. Beispiele von ungeeigneten Namen sind ```coderking```, ```cookiemonster``` oder ```skaterboy```.*
+<!--*Auf Github ist dieser Benutzername sehr prominent und wird auch in der Projektkommunikation verwendet. Achten Sie deshalb bitte darauf, dass Sie einen Benutzernamen wählen, der professionelles Arbeiten zulässt. Gute Beispiele sind: ```andreasmeier``` oder ```andreas``` oder ```ameier```. Beispiele von ungeeigneten Namen sind ```coderking```, ```cookiemonster``` oder ```skaterboy```.*-->
 
 
 ## Installation der Entwicklungswerkzeuge
@@ -55,6 +55,9 @@ Um via Git auf ihr Github repository zugreifen zu können, müssen Sie ssh (secu
 Bitte konsultieren Sie dazu die [Github Dokumentation](
 https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 ), welche diesen Schritt für die drei wichtigen Betriebssysteme (Windows, Linux und MacOS) detailliert beschreibt.
+
+Falls Sie Probleme haben SSH einzurichten, können Sie alternativ auch ein Access Token erstellen und 
+mit diesem Arbeiten. Eine Anleitung dazu finden Sie[hier](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token). 
 
 ### Installieren von Java
 
@@ -95,7 +98,7 @@ Nun erstellen Sie, ausgehend von unserem privaten Fork, ihren eigenen privaten F
 
 ### Klonen des Projekts
 
-Damit Sie an dem Projekt arbeiten können müssen Sie das Repository noch auf Ihren eigenen Computer bringen (d.h. das Repository "klonen"). Drücken Sie den grünen Button mit Namen "Code" und kopieren Sie die URL.
+Damit Sie an dem Projekt arbeiten können müssen Sie das Repository noch auf Ihren eigenen Computer bringen (d.h. das Repository "klonen"). Drücken Sie den grünen Button mit Namen "Code", wählen Sie *SSH* und und kopieren Sie die URL. (Anmerkung: Falls Sie statt mit SSH mit einem Access-token arbeiten, müssen Sie an dieser Stelle statt *SSH* *HTTPS* wählen).
 
 Öffnen Sie eine Konsole, wechseln Sie in ihr gewünschtes Arbeitsverzeichnis und geben Sie folgendes ein:
 
@@ -113,7 +116,7 @@ Dazu wechseln Sie zuerst in das Verzeichnis ```jabref```:
 cd jabref
 ```
 
-Dann führen Sie folgende Kommandos aus (unter Linux und MacOS muss .\ durch ./ ersetzt werden):
+Dann führen Sie folgende Kommandos aus (unter Linux und MacOS muss `.\` durch `./` ersetzt werden):
 
 ```
 .\gradlew compileJava
