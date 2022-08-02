@@ -8,10 +8,8 @@ title : Einführung
 
 ## Slides 
 
-* Kursziele und Administratives
-    * Slides: [pdf](/comingsoon)
-* Software Engineering 
-    * Slides: [pdf](/comingsoon)
+* Einführung in Software Engineering
+    * Slides: [pdf](/slides/einfuehrung.pdf)
 
 
 ## Übungen
