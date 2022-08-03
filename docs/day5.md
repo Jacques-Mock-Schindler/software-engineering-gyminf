@@ -14,7 +14,7 @@ title : OO-Design
 
 ## Übungen
 
-* [Unittests und Continuous Integration](./exercises/unit-tests-und-ci)
+* [Eine erste Erweiterung](./exercises/jabref-extension)
 
 ## Literatur
 
