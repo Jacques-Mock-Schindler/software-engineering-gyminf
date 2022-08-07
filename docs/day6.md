@@ -15,7 +15,7 @@ title : Anforderungsanalyse
 
 ## Übungen
 
-* [Projektschritt I: Pflichtenheft erstellen](./project/step1)
+* [Projektschritt I: Pflichtenheft erstellen](./project/step1/exercises)
 
 ## Literatur
 
