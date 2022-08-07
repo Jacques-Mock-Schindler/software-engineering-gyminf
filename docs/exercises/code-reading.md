@@ -143,7 +143,7 @@ Kurze Kommentare von ca 2-3 Zeilen reichen völlig aus.
 
 * Um zu sehen wie die Methoden genutzt werden, können Sie sich die Tests zur Klasse anschauen. In IntelliJ springen Sie zu den Tests einer Klasse indem Sie die Tastenkombination ```ctrl + shift + t``` drücken.
 * Wenn die Logik einer Methode schwierig zu verstehen ist, kann es helfen einen Breakpoint in dieser Methode zu setzen, und dann den Debugger zu nutzen um die Stelle zu finden. 
-* Kommentare, die sich direkt aus dem Methodennamen herleiten lassen keinen Mehrwert bieten. 
+* Kommentare, die sich direkt aus dem Methodennamen herleiten lassen, bieten keinen Mehrwert. 
 
 
 
