@@ -9,9 +9,9 @@ title : Eigenschaften von Software
 ## Slides 
 
 * Eigenschaften und Qualitätsmerkmale von Software 
-    * Slides: [pdf](/eigenschaften.pdf)
+    * Slides: [pdf](/slides/eigenschaften.pdf)
 * Einführung in Git und Github
-    * Slides: [pdf](/git.pdf)
+    * Slides: [pdf](/slides/git.pdf)
 
 
 
