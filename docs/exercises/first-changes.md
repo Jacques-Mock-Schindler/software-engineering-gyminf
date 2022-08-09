@@ -136,7 +136,8 @@ Untracked files:
 
 ## Erste Änderungen
 
-Ihre Aufgabe ist es nun, erste Änderungen an Jabref vorzunehmen.
+Ihre Aufgabe ist es nun, erste Änderungen an Jabref vorzunehmen. Dazu öffnen Sie 
+JabRef in der Entwicklungsumgebung (IntelliJ)
 
 #### Änderung 1:
 
