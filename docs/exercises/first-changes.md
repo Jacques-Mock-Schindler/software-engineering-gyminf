@@ -75,33 +75,24 @@ Already up to date.
 Falls es neue Commits gegeben hat, könnte die Ausgabe etwa so aussehen.
 ```
 From https://github.com/unibas-marcelluethi/jabref
- * branch            main     -> FETCH_HEAD
-Updating 5c9edc9..fedf4c5
+ * branch                main       -> FETCH_HEAD
+   b14a0835f..fb9665a1d  main       -> origin/main
+Updating b14a0835f..fb9665a1d
 Fast-forward
- .github/workflows/automerge.yml                   |  48 +-
- .github/workflows/check-links.yaml                |  44 +-
- .github/workflows/check-outdated-dependencies.yml |  52 +--
- .github/workflows/cleanup_pr.yml                  |  72 +--
- .github/workflows/deployment.yml                  | 398 ++++++++--------
- .github/workflows/refresh-csl-subtrees.yml        |  86 ++--
- .github/workflows/refresh-journal-lists.yml       | 118 ++---
- .github/workflows/snap.yml                        |  80 ++--
- .github/workflows/stale.yml                       |  36 +-
- .github/workflows/tests-fetchers.yml              | 114 ++---
- .github/workflows/tests.yml                       | 526 +++++++++++-----------
- 11 files changed, 787 insertions(+), 787 deletions(-)
- ```
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+) ```
+```
 
-*Hinweis: Diese Commits sind nur ein Beispiel und werden bei Ihnen anders aussehen.*
+*Hinweis: Diese Commits sind nur ein Beispiel und werden bei Ihnen eventuell anders aussehen.*
 
-Die Zeile ```Updating 5c9edc9..fedf4c5``` gibt ihnen die Commit-ids der ersten und letzten Änderung an.
+Die Zeile ```Updating b14a0835f..fb9665a1d``` gibt ihnen die Commit-ids der ersten und letzten Änderung an.
 Um zu sehen welche Änderungen mit diesem Pull vorgenommen wurden, nutzen sie folgende *Git* Kommandos:
 ```
-git log  5c9edc9..fedf4c5
+git log  b14a0835f..fb9665a1d
 ```
 oder
 ```
-git diff  5c9edc9..fedf4c5
+git diff  b14a0835f..fb9665a1d
 ```
 Das Erste gibt Ihnen alle Commit Messages der neuen Änderungen aus. 
 Das Letztere zeigt die "Diffs" der Dateien an.
