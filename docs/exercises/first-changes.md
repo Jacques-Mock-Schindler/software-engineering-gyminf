@@ -152,6 +152,9 @@ JabRef in der Entwicklungsumgebung (IntelliJ)
 
 *Tipp 1:* Verwenden Sie die Suchfunktionen *Search Everywhere* (```Shift Shift```) oder *Find in Path* (```Ctrl-Shift-F```) um die entsprechenden Stellen im Code zu finden.
 *Tipp 2:* Neben den java Dateien, müssen Sie auch die Dateien mit der Endung *.fxml anschauen. Diese enthält das eigentliche Layout der Elemente in der Dialogbox.
+*Tipp 3:* Um zur Implementation einer Methode oder Klasse zu springen, drücken Sie die `Ctrl`-Taste und klicken Sie auf den Methoden oder Klassennamen. 
+
+
 
 Wenn Sie die Änderung erfolgreich implementiert und getestet haben, können Sie diese committen. Dies machen Sie mit dem Befehl:
 ```
