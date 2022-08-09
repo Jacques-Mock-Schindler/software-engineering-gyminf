@@ -39,9 +39,14 @@ git remote -v
 können Sie sich die URL davon anzeigen lassen.
 
 Damit Sie auf die Änderungen vom *upstream* Repository zugreifen können, müssen Sie dies als weiteres remote Repository hinzufügen. 
-Das machen Sie via:
+Wenn Sie ssh benuzten (also in der vorigen Übung ssh eingerichtet haben) geben 
+Sie dafür folgendes Kommando ein
 ```
 git remote add upstream git@github.com:unibas-marcelluethi/jabref.git
+```
+Falls Sie ein Access Token verwendet haben, geben Sie stattdessen folgenden Befehl ein:
+```
+git remote add upstream https://github.com/unibas-marcelluethi/jabref.git
 ```
 
 Verifizieren Sie, dass das Hinzufügen erfolgreich war, mithilfe dem Befehl:
