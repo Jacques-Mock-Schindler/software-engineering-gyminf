@@ -107,9 +107,9 @@ Ein gute Vorgehensweise ist Teile des Codes bei dieser Gelegenheit gerade zu Dok
 
 #### Dokumentieren sie ein Package
 
-Um bestehenden Code zu verstehen ist es oft eine gute Idee diesen zu dokumentieren. Dies wurde meisterhaft im Paper [Software Aging](https://ieeexplore.ieee.org/abstract/document/296790/) von David Parnas diskutiert. Wir empfehlen Ihnen, dieses sehr leicht zu lesende Paper, als Vorbereitung für die nachfolgende Übung zu lesen. 
+Um bestehenden Code zu verstehen ist es oft eine gute Idee diesen zu dokumentieren. Dies wurde meisterhaft im Paper [Software Aging](https://ieeexplore.ieee.org/abstract/document/296790/) von David Parnas motiviert. (Wir empfehlen Ihnen, dieses unterhaltsame und sehr leicht zu lesende Paper, bei Gelegenheit zu lesen). 
 
-Lesen Sie auch den [Auszug aus dem Buch](https://moodle.unifr.ch/pluginfile.php/1450112/mod_folder/content/0/java-by-comparison-api-docs.pdf?forcedownload=1) Java By Comparison zum Thema API Doc.
+Lesen Sie den [Auszug aus dem Buch](https://moodle.unifr.ch/pluginfile.php/1450112/mod_folder/content/0/java-by-comparison-api-docs.pdf?forcedownload=1) Java By Comparison zum Thema API Doc. In diesem Buchauszug wird anhand von Beispielen erklärt, wie man gute Dokumentation schreibt. 
 
 Dokumentieren Sie dann die folgenden Packages.
 
