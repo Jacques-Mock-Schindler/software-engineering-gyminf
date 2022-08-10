@@ -8,12 +8,10 @@ title : Prinzipien des Software-Engineerings
 
 ## Slides 
 
-* Prinzipien des Software-Engineerings
-    * Slides: [pdf](/comingsoon)
-* Modularität und Modulbeziehungen
-    * Slides: [pdf](/comingsoon)
+* Prinzipien des Software-Engineerings, Modularität
+    * Slides: [pdf](/slides/prinzipien.pdf)
 * Einführung in Buildsysteme / Gradle
-    * Slides: [pdf](/comingsoon)
+    * Slides: [pdf](/slides/buildsysteme.pdf)
 
 
 ## Übungen
@@ -22,6 +20,6 @@ title : Prinzipien des Software-Engineerings
 
 ## Literatur
 
-* [D. L. Parnas - Software Aging](https://ieeexplore.ieee.org/abstract/document/296790/)
+* [D. L. Parnas - Software Aging](https://dl.acm.org/doi/pdf/10.5555/257734.257788)
 
 
