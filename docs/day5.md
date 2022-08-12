@@ -9,7 +9,7 @@ title : OO-Design
 ## Slides 
 
 * Objektorientiertes Design
-    * Slides: [pdf](/sides/oo-design.pdf)
+    * Slides: [pdf](/slides/oo-design.pdf)
 
 
 ## Übungen
