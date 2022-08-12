@@ -8,8 +8,8 @@ title : OO-Design
 
 ## Slides 
 
-* SOLID-Prinzipien
-    * Slides: [pdf](/comingsoon)
+* Objektorientiertes Design
+    * Slides: [pdf](/sides/oo-design.pdf)
 
 
 ## Übungen
