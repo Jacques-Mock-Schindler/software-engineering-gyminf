@@ -9,7 +9,7 @@ title : Anforderungsanalyse
 ## Slides 
 
 * Anforderungsanalyse und Anforderungen
-    * Slides: [pdf](/comingsoon)
+    * Slides: [pdf](/slides/anforderungen.pdf)
 * Beispielspezifikationen (Lastenheft / Pflichtenheft)
     * Pdf [auf Moodle](https://moodle.unifr.ch/pluginfile.php/1450112/mod_folder/content/0/java-by-comparison-api-docs.pdf?forcedownload=1)
 
