@@ -5,7 +5,7 @@ title : Schritt 1
 # Projektschritt 1: Pflichtenheft und Projektplan
 
 
-*Bevor Sie die folgenden Aufgaben bearbeiten, vergewissern Sie sich bitte, dass Sie das [Dokument Projektübersicht](../project-summary.html) gelesen haben, die entsprechenden Branches auf Ihrem Repository angelegt haben, und Ihnen die Struktur vom Projekt klar ist.*
+*Bevor Sie die folgenden Aufgaben bearbeiten, vergewissern Sie sich bitte, dass Sie das [Dokument Projektübersicht](../project-summary) gelesen haben, die entsprechenden Branches auf Ihrem Repository angelegt haben, und Ihnen die Struktur vom Projekt klar ist.*
 
 #### Allgemeiner Hinweis zur Arbeitsweise
 
@@ -65,4 +65,4 @@ relative kleine Tasks besser überblicken können. Natürlich hilft es auch sich
 
 ## Abgabe:
 Speichern Sie die Dokumente im Ordner ```docs/sweng``` von Jabref.
-Die Abgabe erfolgt pro Gruppe, mittels Pull Request bis zur in der [Übersicht](../project-overview) spezifizierten deadline.  Geben Sie Ihren ```marcelluethi``` als Reviewer an..
+Die Abgabe erfolgt pro Gruppe, mittels Pull Request bis zur in der [Übersicht](../project-summary) spezifizierten deadline.  Geben Sie Ihren ```marcelluethi``` als Reviewer an..
