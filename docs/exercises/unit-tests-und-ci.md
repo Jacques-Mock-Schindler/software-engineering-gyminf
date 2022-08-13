@@ -82,7 +82,7 @@ soll. In dieser Methode erstellen Sie eine Datenbank mit 3 Einträgen. Die Eintr
 * Schreiben Sie dann einen Test ```correctlyCountsNumberOfEntries``` welcher prüft, dass die
   Anzahl Einträge in der Datenbank richtig angegeben werden.
 * Schreiben Sie einen Test ```getEntriesSortedOnFieldYear``` welcher prüft, ob die Einträge
-  mit der Methode ```getEntriesSorted``` korrekt nach Jahr sortiert werden können.
+  mit der Methode ```getEntriesSorted``` korrekt nach Jahr sortiert werden können. (Hinweis: Sie müssen entweder ihren eigenen Comparator implementieren oder können die Klasse ```org.jabref.logic.bibtex.comparator.EntryComparator``` nutzen)
 * Schreiben Sie einen Test ```getEntryByCitationKeyFindsEntry``` welcher überprüft ob für einen gegebenen
 Schlüssel (Citationkey) der richtige Eintrag zurückgegeben wird. (Der CitationKey ist der Eintrag auf der ersten Zeile nach dem Eintragstyp, also z.B. *liskov1974programming*).
 
